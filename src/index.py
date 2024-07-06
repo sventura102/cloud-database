@@ -7,7 +7,6 @@ from firebase_admin import db
 def fetch_weather(api_key, city):
     base_url = "https://api.openweathermap.org/data/2.5/weather"
     params = {
-        
         'q': city,
         'appid': api_key,
         'units': 'imperial' #get temp in farenheit
@@ -22,7 +21,7 @@ def fetch_weather(api_key, city):
 
 api_key = '37ae7ff77aa1a4b76c78e816f58ca4a3'
 city = 'New York'
-city1 = 'Las Vegas'
+city1 = 'Reno'
 city2 = 'Rexburg'
 weather_data = fetch_weather(api_key, city)
 
@@ -40,7 +39,7 @@ def store_weather_data(city, weather_data):
     doc_ref.set(weather_data)
 
 store_weather_data('New York', weather_data)
-store_weather_data('Las Vegas', weather_data)
+store_weather_data('Reno', weather_data)
 store_weather_data('Rexbrug', weather_data)
 
 # References server path in Firestore
