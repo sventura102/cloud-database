@@ -2,7 +2,7 @@
 
 Primarily, I wanted to explore more databases. I've worked with pgAdmin, MySQL, and MongoDB. I learned that this database is not much different from ones that I've worked with before but I understand that it can be very helpful to keep things all in one place if a business primarily hosts the site with Google applications, including Google Ads and even Firebase Hosting. In this project, I created a projec that pulls information from the OpenWeatherMap API, calls the data from the city name, and places it into the Firebase database.
 
-[Software Demo Video]()
+[Software Demo Video](https://cdnapisec.kaltura.com/index.php/extwidget/preview/partner_id/1157612/uiconf_id/42438192/entry_id/1_kigawkpv/embed/dynamic)
 
 # Cloud Database
 
